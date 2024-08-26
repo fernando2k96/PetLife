@@ -9,9 +9,19 @@ body {
   color: #263138;
 }
 header{
-    background-color: #FF9A6C
+    background-color: #FF9A6C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
-  h1 {
-    background-color: #FF9A6C;
+  header nav a {
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 32PX;
+    text-decoration: none;
   }
