@@ -68,3 +68,30 @@ header{
     width: 100%;
     z-index: -10;
   }
+
+  #clinica {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+  }
+
+  #clinica li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+  }
+
+  #farmacia {
+    padding: 64px 80px;
+    text-align: center;
+    
+  }
+
+  #farmacia img {
+    margin: 64px auto;
+  }
+
+  #farmacia .paragrafo {
+    max-width: 950px;
+    margin: 0 auto;
+  }
